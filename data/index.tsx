@@ -77,7 +77,7 @@ export const navItems = [
       title: "Automated trading platform",
       des: "A trading platform that allows user to automate trading pre-defined strategies and provides real-time data for 12000+ US stocks.",
       img: `${basePath}/chart.svg`,
-      iconLists: ["/re.svg", "/python.svg", "/ts.svg", "/SQL.svg"],
+      iconLists: [`${basePath}/re.svg`, `${basePath}/python.svg`, `${basePath}/ts.svg`, `${basePath}/SQL.svg`],
       link: "https://github.com/samm-o/Automatic-Trading-Platform",
     },
     {
@@ -85,7 +85,7 @@ export const navItems = [
       title: "Email service bot",
       des: "Simplify your networking with a bot that sends out your cold calling messages to hundreds of potential employers at a time. Connected with your email account and secured with OAuth2.",
       img: `${basePath}/gmail.svg`,
-      iconLists: ["/next.svg", "/java.svg", "/JS.svg"],
+      iconLists: [`${basePath}/next.svg`, `${basePath}/java.svg`, `${basePath}/JS.svg`,],
       link: "https://github.com/samm-o/EmailBot.iml",
     }
   ];
@@ -96,7 +96,7 @@ export const navItems = [
       quote: "As a lead driver and mechanical lead in the FIRST Robotics Competition, I achieved notable milestones, ranking 2nd in Canada and 15th globally in the 2023 season. Throughout these competitions, I honed my software utilization skills to optimize robot driving strategies, demonstrating my ability to thrive in high-pressure technological environments.",
       name: "FRC Team 1325 Inverse Paradox",
       title: "Primary Driver & Mechanical/Controls Lead",
-      img: "/1325.png",
+      img: `${basePath}/1325.png`,
     },
     {
       id: 2,
@@ -104,7 +104,7 @@ export const navItems = [
         "As a Machine Learning / Quant Developer at Wat.Street, I aim to develop a machine learning model that predicts the movement of futures contracts where the user can input their strategy, volatility tolerance, risk management, and the model will output the optimal contract to trade. This project adapts to news events, compares assets with other markets and provides a comprehensive analysis of the asset.",
       name: "Wat.Street",
       title: "Machine Learning / Quant Developer",
-      img: "/watstreet.jpeg",
+      img: `${basePath}/watstreet.jpeg`,
     }
   ];
   
@@ -147,38 +147,38 @@ export const navItems = [
       title: "Backend Developer Intern",
       desc: "Expected to work on idendity enablement, user management, and other backend services.",
       className: "md:col-span-2",
-      thumbnail: "/ford.png",
+      thumbnail: `${basePath}/ford.png`,
     },
     {
       id: 2,
       title: "AI Software Developer",
       desc: "Working at Outlier.AI I developed optimal solutions for AI models, including data preprocessing, model training, and deployment.",
       className: "md:col-span-2",
-      thumbnail: "/outlier.jpeg",
+      thumbnail: `${basePath}/outlier.jpeg`,
     },
     {
       id: 3,
       title: "Automation Developer Intern",
       desc: "Designed and developed automation scripts for the company's front-end services. Implemented  encryption for login tokens to secure user data.",
       className: "md:col-span-2", 
-      thumbnail: "/ford.png",
+      thumbnail: `${basePath}/ford.png`,
     }
   ];
   
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: `${basePath}/git.svg`,
       href: "https://github.com/samm-o"
     },
     {
       id: 2,
-      img: "/insta.svg",
+      img: `${basePath}/insta.svg`,
       href: "https://www.instagram.com/_s.georgiev/"
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: `${basePath}/link.svg`,
       href: "https://www.linkedin.com/in/samuils-georgiev/"
     },
   ];
