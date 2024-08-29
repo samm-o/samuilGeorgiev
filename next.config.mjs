@@ -1,13 +1,10 @@
 import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath:'/samm-o.github.io',
+    basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
     output: 'export',
     typescript: {
         ignoreBuildErrors: true,
-    },
-    images: {
-        unoptimized: true,
     },
 };
 

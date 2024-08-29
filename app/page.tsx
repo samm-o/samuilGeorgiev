@@ -11,7 +11,7 @@ import Experience from "../components/Experiences";
 import RecentProjects from "../components/Projects";
 import { FloatingNav } from "@/components/ui/floatingNav";
 
-const Grid = dynamic(() => import("../components/Grid"), { ssr: false });
+const Grid = dynamic(() => import("../components/Grid"), { ssr: true });
 
 const Home = () => {
   const [isClient, setIsClient] = useState(false);
