@@ -85,7 +85,7 @@ export const navItems = [
       title: "Email service bot",
       des: "Simplify your networking with a bot that sends out your cold calling messages to hundreds of potential employers at a time. Connected with your email account and secured with OAuth2.",
       img: `${basePath}/gmail.svg`,
-      iconLists: [`${basePath}/next.svg`, `${basePath}/java.svg`, `${basePath}/JS.svg`,],
+      iconLists: [`${basePath}/next.svg`, `${basePath}/Java.svg`, `${basePath}/JS.svg`,],
       link: "https://github.com/samm-o/EmailBot.iml",
     }
   ];
