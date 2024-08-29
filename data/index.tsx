@@ -1,6 +1,4 @@
-import getConfig from 'next/config';
-const { publicRuntimeConfig } = getConfig();
-const basePath = publicRuntimeConfig.basePath || '';
+const basePath = '/portfolio'
 
 export const navItems = [
     { name: "About", link: "#about" },

@@ -6,9 +6,6 @@ const nextConfig = {
     typescript: {
         ignoreBuildErrors: true,
     },
-    publicRuntimeConfig: {
-        basePath: '/portfolio',
-    },
 };
 
 export default withSentryConfig(nextConfig, {
