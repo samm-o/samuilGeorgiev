@@ -1,3 +1,7 @@
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
+const basePath = publicRuntimeConfig.basePath || '';
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -13,7 +17,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: `${basePath}/b1.svg`,
       spareImg: "",
     },
     {
@@ -43,8 +47,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: `${basePath}/grid.svg`,
+      spareImg: `${basePath}/b4.svg`,
     },
   
     {
@@ -54,8 +58,8 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: `${basePath}/b5.svg`,
+      spareImg: `${basePath}/grid.svg`,
     },
     {
       id: 6,
@@ -74,7 +78,7 @@ export const navItems = [
       id: 1,
       title: "Automated trading platform",
       des: "A trading platform that allows user to automate trading pre-defined strategies and provides real-time data for 12000+ US stocks.",
-      img: "/chart.svg",
+      img: `${basePath}/chart.svg`,
       iconLists: ["/re.svg", "/python.svg", "/ts.svg", "/SQL.svg"],
       link: "https://github.com/samm-o/Automatic-Trading-Platform",
     },
@@ -82,7 +86,7 @@ export const navItems = [
       id: 2,
       title: "Email service bot",
       des: "Simplify your networking with a bot that sends out your cold calling messages to hundreds of potential employers at a time. Connected with your email account and secured with OAuth2.",
-      img: "/gmail.svg",
+      img: `${basePath}/gmail.svg`,
       iconLists: ["/next.svg", "/java.svg", "/JS.svg"],
       link: "https://github.com/samm-o/EmailBot.iml",
     }
