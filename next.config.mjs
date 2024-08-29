@@ -1,7 +1,6 @@
 import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/portfolio',
     output: 'export',
     typescript: {
         ignoreBuildErrors: true,
