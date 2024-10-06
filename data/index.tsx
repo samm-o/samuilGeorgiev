@@ -87,6 +87,14 @@ export const navItems = [
       img: `${basePath}/gmail.svg`,
       iconLists: [`${basePath}/next.svg`, `${basePath}/Java.svg`, `${basePath}/JS.svg`,],
       link: "https://github.com/samm-o/EmailBot.iml",
+    },
+    {
+      id: 3,
+      title: "NFL 2024 Moneyline Predictor",
+      des: "Simplify your networking with a bot that sends out your cold calling messages to hundreds of potential employers at a time. Connected with your email account and secured with OAuth2.",
+      img: `${basePath}/NFLdashboard.png`,
+      iconLists: [`${basePath}/python.svg`, `${basePath}/JS.svg`],
+      link: "https://github.com/samm-o/Sports-Betting-Predictor",
     }
   ];
   
@@ -145,14 +153,14 @@ export const navItems = [
     {
       id: 1,
       title: "Backend Developer Intern",
-      desc: "Expected to work on idendity enablement, user management, and other backend services.",
+      desc: "As part of the Identity Enablement team, I worked with high-performance Java and SQL to support over 500k API calls daily. I optimized the user database search by implementing a more memory-efficient fuzzy search, improving search time by 15%. Additionally, I refactored the SKU service using OOP principles, increasing unit test coverage by 300%, and deployed projects into Google Cloud with Kubernetes to run code quality checks.",
       className: "md:col-span-2",
       thumbnail: `${basePath}/ford.png`,
     },
     {
       id: 2,
       title: "AI Software Developer",
-      desc: "Working at Outlier.AI I developed optimal solutions for AI models, including data preprocessing, model training, and deployment.",
+      desc: "Trained generative AI models by crafting complex solutions to prompts using Python, C++, and Java. I led the review of 15+ sets of training data, analyzing code and tracking statistical performance with Datadog. Additionally, I developed detailed documentation comparing crafted solutions with AI-generated code, using text comparison tools to demonstrate improved efficiency and reduced lines of code. AI models, including data preprocessing, model training, and deployment.",
       className: "md:col-span-2",
       thumbnail: `${basePath}/outlier.jpeg`,
     },
