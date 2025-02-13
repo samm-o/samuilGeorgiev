@@ -81,6 +81,13 @@ export const navItems = [
       link: "https://github.com/samm-o/Automatic-Trading-Platform",
     },
     {
+      id: 4,
+      title: "Summit: Intelligent Insight Stock Research",
+      des: "A platform designed to simplify and accelerate stock research by analyzing financial statistics, company performance, stock-specific news, and even global economic indicators.",
+      img: `${basePath}/summit.png`,
+      iconLists: [`${basePath}/python.svg`, `${basePath}/SQL.svg`, `${basePath}/ts.svg`, `${basePath}/next.svg`]
+    },
+    {
       id: 2,
       title: "Email service bot",
       des: "Simplify your networking with a bot that sends out your cold calling messages to hundreds of potential employers at a time. Connected with your email account and secured with OAuth2.",
@@ -91,7 +98,7 @@ export const navItems = [
     {
       id: 3,
       title: "NFL 2024 Moneyline Predictor",
-      des: "Simplify your networking with a bot that sends out your cold calling messages to hundreds of potential employers at a time. Connected with your email account and secured with OAuth2.",
+      des: "A tool that predicts the moneyline for NFL games based on historical data and current trends using machine learning algortithms such as XGBoost and Random Forest.",
       img: `${basePath}/NFLdashboard.png`,
       iconLists: [`${basePath}/python.svg`, `${basePath}/JS.svg`],
       link: "https://github.com/samm-o/Sports-Betting-Predictor",
@@ -108,10 +115,9 @@ export const navItems = [
     },
     {
       id: 2,
-      quote:
-        "As a Machine Learning / Quant Developer at Wat.Street, I aim to develop a machine learning model that predicts the movement of futures contracts where the user can input their strategy, volatility tolerance, risk management, and the model will output the optimal contract to trade. This project adapts to news events, compares assets with other markets and provides a comprehensive analysis of the asset.",
-      name: "Wat.Street",
-      title: "Machine Learning / Quant Developer",
+      quote: "Led the development of an Options Strategy Builder tool, creating mutable P/L charts and low-latency API endpoints in C++. Optimized a quantitative finance LLM by achieving 100% faster tokenization and engineered a custom self-attention layer, reducing model training time by 25%. The tool improved user engagement by 30% through interactive strategy visualization and real-time configuration capabilities.",
+      name: "WatStreet",
+      title: "Backend Lead & Quant Developer",
       img: `${basePath}/watstreet.jpeg`,
     }
   ];
@@ -153,7 +159,7 @@ export const navItems = [
     {
       id: 1,
       title: "Backend Developer Intern",
-      desc: "As part of the Identity Enablement team, I worked with high-performance Java and SQL to support over 500k API calls daily. I optimized the user database search by implementing a more memory-efficient fuzzy search, improving search time by 15%. Additionally, I refactored the SKU service using OOP principles, increasing unit test coverage by 300%, and deployed projects into Google Cloud with Kubernetes to run code quality checks.",
+      desc: "Implemented a secure proxy endpoint in Java for the IAM team's high-performance BFF service, enabling seamless whitelisted domain proxying with Redis for session validation and optimizing traffic processing by 30%. Built a secure logout endpoint utilizing Redis cache for session validation, and refactored SKU services while integrating interface tests into BFF endpoints, increasing unit test coverage by 300%.",
       className: "md:col-span-2",
       thumbnail: `${basePath}/ford.png`,
     },
