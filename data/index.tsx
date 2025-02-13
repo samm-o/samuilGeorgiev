@@ -1,4 +1,4 @@
-const basePath = '/portfolio'
+const basePath = '/samuilGeorgiev'
 
 export const navItems = [
     { name: "About", link: "#about" },
